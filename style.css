@@ -1,0 +1,27 @@
+body {
+	background-color: black;
+}
+main {
+	background-color: #2e323f;
+}
+header {
+	height: 600px;
+	background-color: #3b4050;
+}
+.spisok {
+	display: flex;
+	flex-direction: row;
+}
+.s1 {
+	background-color: #f1f1f1;
+	height: 350px;
+} 
+.s2 {
+	background-color: #ffffff;
+	height: 950px;
+}
+
+footer {
+	background-color: #3b4050;
+	height: 400px;
+}
