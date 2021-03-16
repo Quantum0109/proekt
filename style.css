@@ -1,13 +1,13 @@
 body {
 	margin: 0;
 }
-.top_menu {
+header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	background-color: #2e323f;
 	color: #e0e0e2;
-	padding: 2rem;
+	padding: 0 2rem;
 }
 .main_menu ul {
 	display: flex;
@@ -20,7 +20,7 @@ body {
 	text-decoration: none;
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
-
+	text-transform: uppercase;
 }
 .logo {
 	flex-grow: 1;
@@ -36,4 +36,24 @@ body {
 	border-radius: 50px;
 	background: #A59678;
 	padding: 3px;
+}
+.section_1 {
+	display: flex;
+	color: #ffffff;
+	background-color: #3b4050;
+	font-family: 'Oswald', sans-serif;
+}
+.section_left {
+display: flex;
+font-size: 90px;
+flex-grow: 1;
+flex-basis: 0;
+}
+.section_right {
+display: flex;
+flex-grow: 2;
+flex-basis: 0;
+}
+.text_brown {
+	color: #a59678;
 }
