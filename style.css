@@ -42,18 +42,39 @@ header {
 	color: #ffffff;
 	background-color: #3b4050;
 	font-family: 'Oswald', sans-serif;
+	padding: 5rem;
+	line-height: 6rem;
 }
 .section_left {
-display: flex;
 font-size: 90px;
 flex-grow: 1;
 flex-basis: 0;
 }
 .section_right {
 display: flex;
+font-family: 'Montserrat', sans-serif;
+font-size: 24px;
 flex-grow: 2;
 flex-basis: 0;
+flex-direction: column;
 }
 .text_brown {
 	color: #a59678;
+}
+.section_1 .rounded {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-family: 'Oswald', sans-serif;
+	align-self: flex-start;
+}
+.section_first_right {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.section_2 {
+	display: flex;
+	background-color: #f1f1f1;
+
 }
