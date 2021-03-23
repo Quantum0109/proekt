@@ -75,6 +75,37 @@ flex-direction: column;
 }
 .section_2 {
 	display: flex;
-	background-color: #f1f1f1;
-
+	justify-content: space-between;
+	padding: 6rem;
+	background-color: #f1f1f1; 
+	text-align: center;
+}
+.setoon_2 article {
+	margin-right: 6rem
+}
+.setoon_2 article:not(:last-child) {
+margin-right: 6rem;
+}
+article p {
+	color: #5d616e;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+}
+article h2 {
+	color: #a59678;
+	font-size: 30px;
+	font-family:  'Oswald', sans-serif;
+}
+.section_3_photo img {
+	display: block;
+}
+.section_3_photo h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	color: #a59678
+}
+.section_3_photo p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 21px;
+	color: #5d616e;
 }
