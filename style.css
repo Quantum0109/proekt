@@ -46,17 +46,17 @@ header {
 	line-height: 6rem;
 }
 .section_left {
-font-size: 90px;
-flex-grow: 1;
-flex-basis: 0;
+	font-size: 90px;
+	flex-grow: 1;
+	flex-basis: 0;
 }
 .section_right {
-display: flex;
-font-family: 'Montserrat', sans-serif;
-font-size: 24px;
-flex-grow: 2;
-flex-basis: 0;
-flex-direction: column;
+	display: flex;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	flex-grow: 2;
+	flex-basis: 0;
+	flex-direction: column;
 }
 .text_brown {
 	color: #a59678;
@@ -84,7 +84,7 @@ flex-direction: column;
 	margin-right: 6rem
 }
 .setoon_2 article:not(:last-child) {
-margin-right: 6rem;
+	margin-right: 6rem;
 }
 article p {
 	color: #5d616e;
@@ -98,6 +98,7 @@ article h2 {
 }
 .section_3_photo img {
 	display: block;
+	width: 50rem;
 }
 .section_3_photo h2 {
 	font-family: 'Oswald', sans-serif;
@@ -108,4 +109,48 @@ article h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 21px;
 	color: #5d616e;
+}
+.section_3_photo {
+	margin-right: 4rem;
+	flex-grow: 3;
+	flex-basis: 0;
+}
+.section_3 {
+	display: flex;
+	margin-top: 8rem;
+}
+.blocks {
+	display: flex;	
+	margin: 0;
+	flex-grow: 1;
+	flex-direction: column;
+	flex-grow: 2;
+	flex-basis: 0;
+}
+.blocks h2 {
+	font-family: Oswald Bold; 
+	font-size: 30px; 
+	color: #fff;
+}
+.blocks p {
+	color: #fff;
+	font-family: Monserrat Regular;
+	font-size: 18px;
+}
+.section_3 article {
+	margin: 15px;
+	background-color: #3b4050;
+	padding: 30px;
+	text-align: center;
+}
+footer {
+	background: #3b4050;
+}
+.footer_head {
+	font-family: Oswald Bold;
+	font-size: 24px;
+	color: #fff;
+}
+.spisok {
+	list-style: none;
 }
