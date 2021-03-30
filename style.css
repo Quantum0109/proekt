@@ -128,13 +128,13 @@ article h2 {
 	flex-basis: 0;
 }
 .blocks h2 {
-	font-family: Oswald Bold; 
+	font-family: 'Oswald Bold'; 
 	font-size: 30px; 
 	color: #fff;
 }
 .blocks p {
 	color: #fff;
-	font-family: Monserrat Regular;
+	font-family: 'Monserrat Regular';
 	font-size: 18px;
 }
 .section_3 article {
@@ -147,10 +147,26 @@ footer {
 	background: #3b4050;
 }
 .footer_head {
-	font-family: Oswald Bold;
+	text-align: center;
+	font-family: 'Oswald Bold';
 	font-size: 24px;
 	color: #fff;
 }
-.spisok {
+.spisok ul {
 	list-style: none;
+	justify-content: space-between;
+}
+.spisok {
+	display: flex;
+	margin:0;
+	padding: 0;
+}
+.footer_dno {
+	font-family: 'Monserrat Regular';
+	font-size: 16px;
+}
+.nav_item {
+	color: #a59678;
+	font-family: 'Oswald Bold';
+	font-size: 21px;
 }
