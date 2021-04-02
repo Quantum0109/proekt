@@ -1,91 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
-	<title>CTR</title>
 </head>
 <body>
-<header>
-	<div class="logo">CRL</div>
-	<nav class="main_menu">
-	<ul>
-		<li><a class="menu_item" href="">Home</a></li>
-		<li><a class="menu_item" href="">About</a></li>
-		<li><a class="menu_item" href="">Contact</a></li>
-		<li><a class="menu_item" href="">Sign IN</a></li>
-		<li><a class="menu_item rounded" href="">Sign UP</a></li>
-	</ul>
-	</nav>
-</header>
-<main>
-	<section class="section_1">
-		<div class="section_left">Responsive<br> layouts<span class="text_brown">don’t<br>have to be a<br> struggle</span></div>
-		<div class="section_first_right"><div class="section_right"><p>Lorem ipsum dolor sit amet, consectetur adipiscin   gelit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> <a href="" class="rounded">I want to learn</a></div></div>
-	</section>
- 		<section class="section_2">
- 			<article>
- 				<h2>Mobile-first</h2>
- 				<p>Lorem ipsum dolor sit amet, consectetur adipiscin   gelit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
- 			</article>
- 		<article>
- 			<h2>Efficient</h2>
- 			<p>Lorem ipsum dolor sit amet, consectetur adipiscin   gelit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
- 		</article>
- 		<article>
- 			<h2>Done right</h2>
- 			<p>Lorem ipsum dolor sit amet, consectetur adipiscin   gelit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
- 		</article>
- 	</section>
- 	<section class="section_3">
- 		<div class="section_3_photo"
- 		><h2>It doesn’t have to be so hard</h2>
- 		<p>Lorem ipsum dolor sit amet, consectetur a    dipiscin   g elit, sed do eiusm   od tempor in   cididunt ut labore et dolore ma    gna aliqua. Ut enim a    d minim veniam. Lorem ipsum dolor sit am   et, consectetur a    dipiscin   g elit, sed do eiusm   od tempor in   cididunt ut labore et dolore ma    gna aliqua. Ut enim ad minim veniam.</p>
- 		<img src="01.jpg" alt="картинка не загрузилась, слишком тяжолая!">
- 		<p>Lorem ipsum dolor sit amet, consectetur a dipiscin   gelit, sed do eiusm   od tempor in   cididunt ut labore et dolore ma    gna aliqua. Ut enim a    d minim veniam. Lorem ipsum dolor sit amet, consectetur a    dipiscin   g elit, sed do eiusm   od tempor in   cididunt ut labore et dolore ma    gna aliqua. Ut enim ad minim veniam.</p>
- 	</div>
- 	<div class="blocks">
- 		<article><h2>Break it down</h2><p>Lorem ipsum dolor sit am   et, consectetur a    dipiscin   g elit, sed do eiusm   od tempor in   cididunt ut labore et dolore ma    gna aliqua.</p></article>
- 		<article><h2>Work your way up</h2><p>Lorem ipsum dolor sit am   et, consectetur a    dipiscin   g elit, sed do eiusm   od tempor in   cididunt ut labore et dolore ma    gna aliqua.</p></article>
- 		<article><h2>&nbsp;</h2><p>Lorem ipsum dolor sit am   et, consectetur a    dipiscin   g elit, sed do eiusm   od tempor in   cididunt ut labore et dolore ma    gna aliqua.</p></article>
- 	</div>
- 	</section>
-</main>
-<footer>
-	<div class="footer_head">just scratching the surface</div>
-	<div class="footer_dno">
-		
-		<div class="nav_text"><h2 class="nav_item">About our company</h2>
-			Lorem ipsum dolor sit amet, consectetur a dipiscin gelit, sed do eiusm odtempor in cididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
-		
-		<nav class="spisok">
-			<h3 class="nav_item">Getting around</h3>
-		<ul>
-			<li><a href="">Home</a></li>
-			<li><a href="">About</a></li>
-			<li><a href="">Contact</a></li>
-			<li>&nbsp;</li>
-		</ul>
-			<h3 class="nav_item">Otherth</h3>
-			<ul>
-				<li><a href="">Lorem ipsum</a></li>
-				<li><a href="">dolor</a></li>
-				<li><a href="">sit amet</a></li>
-				<li><a href="">consectetur</a></li>
-			</ul>
-				<h3 class="nav_item">And more</a></h3>
-			<ul>
-				<li><a href="">Lorem ipsum</a></li>
-				<li><a href="">dolor</a></li>
-				<li><a href="">sit amet</a></li>
-				<li><a href="">consectetur</a></li>
+	<header class="main_header">
+		<div class="logo">CRL</div>
+		<nav class="header_menu">
+			<ul class="menu_container">
+				<li><a class="menu_item" href="">Home</a></li>
+				<li><a class="menu_item" href="">About</a></li>
+				<li><a class="menu_item" href="">Contact</a></li>
+				<li><a class="menu_item" href="">Sign In</a></li>
+				<li><a class="menu_item rounded" href="">Sign Up</a></li>
 			</ul>
 		</nav>
-	</div>
-</footer>
+	</header>
+
+	<main>
+		<section class="section_first">
+			<div class="section_first_left">
+				Responsive<br> layouts <span class="text_dark">don’t<br> have to be a<br> struggle</span>
+			</div>
+			<div class="section_first_right">
+				<p>Lorem ipsum dolor sit am   et, consectetur<br> a    dipiscin   g elit, sed do eiusm od tempor<br> in   cididunt ut labore et dolore ma    gna aliqua.</p>
+				<a class="rounded">I want to learn</a>
+			</div>
+		</section>
+		<section class="section_second">
+			<article>
+				<h3>Mobile-first</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates cumque ullam fuga possimus laudantium, perferendis saepe officiis deserunt debitis vero illo doloribus voluptatibus soluta velit quaerat nisi repellat sapiente recusandae.</p>
+			</article>
+			<article>
+				<h3>Efficient</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates cumque ullam fuga possimus laudantium, perferendis saepe officiis deserunt debitis vero illo doloribus voluptatibus soluta velit quaerat nisi repellat sapiente recusandae.</p>
+			</article>
+			<article>
+				<h3>Done right</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates cumque ullam fuga possimus laudantium, perferendis saepe officiis deserunt debitis vero illo doloribus voluptatibus soluta velit quaerat nisi repellat sapiente recusandae.</p>
+			</article>
+		</section>
+
+		<section class="section_third">
+			<div class="section_third_left">
+				<h3>It doesn’t have to be so hard</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae totam sit illum beatae voluptate sapiente incidunt hic, molestias aliquam nesciunt quam. Fuga provident sapiente repellendus enim optio deleniti voluptatibus, labore.</p>
+				<img src="image.jpg" alt="">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis laudantium, voluptate. Vitae ex nemo eaque nesciunt? Laboriosam inventore enim asperiores unde tempora placeat reiciendis culpa? Culpa, obcaecati totam impedit deleniti!</p>
+			</div>
+			<div class="section_third_right">
+				<article>
+					<h3>Break it down</h3>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi sequi quos similique veritatis illo, quo repellat rerum harum ex, architecto nemo minima in officia laudantium? Provident accusamus, ut laboriosam distinctio.</p>
+				</article>
+				<article>
+					<h3>Work your way up</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias at, nulla nihil explicabo illo cum harum sit pariatur aliquid voluptatem, consequatur animi magni error, veniam, debitis ducimus voluptatibus saepe. Tempore.</p>
+				</article>
+				<article>
+					<h3>&emsp;</h3>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam quod temporibus, qui. Libero aliquam at repudiandae, nam sit doloribus adipisci, aspernatur! Doloribus perspiciatis dignissimos, quas, error nisi et accusamus quibusdam!</p>
+				</article>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="footer_top">just scratching the surface</div>
+		<div class="footer_bottom">
+			<div class="footer_bottom_left">
+				<h3>About our company</h3>
+				<p>
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloremque dolores maxime? Asperiores facilis deserunt error provident repellendus maxime, eveniet veniam itaque, tenetur eos excepturi mollitia sit, corporis dicta nam?
+				</p>
+			</div>
+			<nav class="footer_nav">
+				<div class="footer_nav_container">
+					<h3>Getting around</h3>
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+				</div>
+				<div class="footer_nav_container">
+					<h3>Other things</h3>
+					<ul>
+						<li><a href="">Lorem ipsum</a></li>
+						<li><a href="">dolor</a></li>
+						<li><a href="">sit amet</a></li>
+						<li><a href="">consectetur</a></li>
+					</ul>
+				</div>
+				<div class="footer_nav_container">
+					<h3>And more</h3>
+					<ul>
+						<li><a href="">Lorem ipsum</a></li>
+						<li><a href="">dolor</a></li>
+						<li><a href="">sit amet</a></li>
+						<li><a href="">consectetur</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</footer>
 </body>
 </html>
+
